@@ -1,6 +1,6 @@
 component "puppet-forge-api" do |pkg, settings, platform|
   pkg.ref "master"
-  pkg.url "git@github.com:puppetlabs/puppet-forge-api.git"
+  pkg.url "https://github.com/puppetlabs/puppet-forge-api.git"
 
   pkg.build_requires "pdk-runtime"
 
